@@ -116,7 +116,7 @@ jobs:
       if: steps.compareHash.outputs.cache-hit != 'true' || github.event.inputs.ENABLE_FORCE_SYNC_UPSTREAM == 'true'
       run: |
         git add .
-        if [[ -n $(git status -s) ]]; then
+        if [ -n "$(git status -s)" ]; then
           git commit -m "${{ env.commitMessage }}"
           git push -f origin
           #git push -f origin $BRANCH
