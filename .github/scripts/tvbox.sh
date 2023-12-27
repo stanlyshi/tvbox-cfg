@@ -88,4 +88,7 @@ sed -szi 's|"ads":\[.*\]|"ads":\["raw.githubusercontent.com",\
 "z6.cnzz.com",\
 "z7.cnzz.com",\
 "z8.cnzz.com"\]|' $GITHUB_WORKSPACE/js.json $GITHUB_WORKSPACE/jsm.json 2>/dev/null
+for file in $(find $GITHUB_WORKSPACE -maxdepth 1 -type f -name "*.txt"); do
+	sed -si '/车震/d' $file 2>/dev/null
+done
 rm -rf $GITHUB_WORKSPACE/9918.json
