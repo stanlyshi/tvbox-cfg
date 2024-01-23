@@ -82,7 +82,7 @@ jobs:
         
     - name: Compare Commit Hash
       id: compareHash
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         path: ~/.commitHash
         key: ${{ env.GithubRepoDir }}-${{ env.commitHash }}
