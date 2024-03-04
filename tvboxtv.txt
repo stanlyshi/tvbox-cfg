@@ -1839,3 +1839,4 @@ HTV-5青少.体育,http://183.129.242.178:3333/tsfile/live/1019_1.m3u8
 2019年,https://txmov2.a.kwimgs.com/bs3/video-hls/5222205336887088723_hlshd15.m3u8
 2020年,https://txmov2.a.kwimgs.com/bs3/video-hls/5248101009010430183_hlshd15.m3u8
 2023年,https://txmov2.a.kwimgs.com/bs3/video-hls/5251197255879398624_hlshd15.m3u8
+2024年,https://cms-emer-res.cctvnews.cctv.com/cctv/video/20240210/1d7c7f27f96f4155b2037e8c4db41c7e_H264_3000K_MP4/20240210040209928.m3u8
