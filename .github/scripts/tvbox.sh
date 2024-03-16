@@ -3,7 +3,7 @@
 find $GITHUB_WORKSPACE -maxdepth 1 -type f -name "*.json"
 
 for file in $(find $GITHUB_WORKSPACE -maxdepth 1 -type f -name "*.json"); do
-	sed -i '/^{"name":"磁力廣告"/ s/"regex":.*\]},/"regex":\["更多","最新","更新","直播","社區","社区","有趣","新葡京","英皇体育","新片首发","xuu","UUE29"\]},/' $file 2>/dev/null
+	sed -i '/^[\s]{0,9}{"name":"磁力廣告"/ s/"regex":.*\]},/"regex":\["更多","最新","更新","直播","社區","社区","有趣","新葡京","英皇体育","新片首发","xuu","UUE29"\]},/' $file 2>/dev/null
 done
 sed -si '/"name":"live"/a\{"name":"俊于•综合","type":0,"url":"http://home.jundie.top:81/Cat/tv/live.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}, \
 {"name":"tvboxtv","type":0,"url":"./tvboxtv.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}, \
