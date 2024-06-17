@@ -37,11 +37,11 @@
 
 （10）XYQ.json XYQ源，jar包和配置来源于香雅情；
 
-（11）cat.json cat源，资源来源于网络各路大佬。/cat/js配合猫影视可直接食用；
+（11）cat.json cat源，资源来源于网络各路大佬。/cat/js配合猫ys可直接食用；
 
 （12） jsm.json 来自js.json + 0826.json 合集 家庭电视可用 删除YouTube 直播，OK影视 可用 电视建议使用OK影视 https://github.com/FongMi/Release 支持多直播选择。
 
-猫影视使用github 配置
+猫ys使用github 配置
 
 配置教程：https://omii.top/1296.html
 
@@ -71,7 +71,7 @@ V1.1.2版本以下
 
 （4）皮皮虾版本 发布频道：https://t.me/pipixiawerun 支持直播回放，支持弹幕；
 
-（5）新版猫影视 项目地址：https://github.com/catvod/CatVodOpen 界面简洁，支持多平台。
+（5）新版猫ys 项目地址：https://github.com/catvod/CatVodOpen 界面简洁，支持多平台。
 
 （6）手机版本 项目地址：https://github.com/XiaoRanLiu3119 竖屏
 
